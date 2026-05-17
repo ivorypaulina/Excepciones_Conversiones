@@ -5,9 +5,10 @@ public class Estudiante {
 
     public Estudiante(String nombre, int edad, double promedio)
             throws EdadInvalidaException {
-
+            //throws se usa para avisar que un metodo puede lanzar una excepcion
         if (edad < 0 || edad > 120) {
             throw new EdadInvalidaException(edad);
+            //throw lanza el error manualmente
         }
 
         this.nombre = nombre;
