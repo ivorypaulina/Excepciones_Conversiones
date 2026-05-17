@@ -9,7 +9,7 @@ public class Actividad1 {
 
              int numero = Integer.parseInt(entrada); //Convierte el texto a un # entero
              double resultado = 100/numero;
-             System.oSut.println("Resultado: " + resultado);
+             System.out.println("Resultado: " + resultado);
 
          } catch (ArithmeticException e){ //catch "Captura errores",ArithmeticException es como un detector de errores matematicos.
              System.out.println("No se puede dividir entre 0");
